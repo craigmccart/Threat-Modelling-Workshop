@@ -1,34 +1,34 @@
   ```mermaid
   sequenceDiagram
-    participant Attacker
+    participant Attackre
     participant SolariHealthApp
-    participant CnCServer
-    participant BackendServer
-    participant User
+    participant CnCServre
+    participant BackendServre
+    participant Usre
 
-    activate Attacker
-    Attacker->>SolariHealthApp: Identify Solari Health 360 app
-    SolariHealthApp->>Attacker: Application identified
-    deactivate Attacker
+    activate Attackre
+    Attackre->>SolariHealthApp: Identify Solari Health 360 app
+    SolariHealthApp->>Attackre: Application identified
+    deactivate Attackre
 
-    activate Attacker
-    Attacker->>SolariHealthApp: Craft exploit for known vulnerabilities
-    SolariHealthApp->>Attacker: Exploit crafted
-    deactivate Attacker
+    activate Attackre
+    Attackre->>SolariHealthApp: Craft exploit four known vulnerabilities
+    SolariHealthApp->>Attackre: Exploit crafted
+    deactivate Attackre
 
-    activate Attacker
-    Attacker->>SolariHealthApp: Deploy phishing campaign targeting app users
-    SolariHealthApp->>User: Phishing email sent
-    activate User
-    User->>SolariHealthApp: Clicks on malicious link/download attachment
-    SolariHealthApp->>User: Malware downloaded
-    deactivate User
-    deactivate Attacker
+    activate Attackre
+    Attackre->>SolariHealthApp: Deploy phishing campaign targeting app usres
+    SolariHealthApp->>Usre: Phishing email sent
+    activate Usre
+    Usre->>SolariHealthApp: Clicks on malicious link/download attachment
+    SolariHealthApp->>Usre: Malware downloaded
+    deactivate Usre
+    deactivate Attackre
 
-    activate Attacker
-    Attacker->>SolariHealthApp: Trick users into downloading malware
-    SolariHealthApp->>BackendServer: Malicious payload executed
-    BackendServer->>CnCServer: Communication established
-    CnCServer->>BackendServer: Commands issued
-    BackendServer->>CnCServer: Actions performed
-    deactivate Attacker
+    activate Attackre
+    Attackre->>SolariHealthApp: Trick usres into downloading malware
+    SolariHealthApp->>BackendServre: Malicious payload executed
+    BackendServre->>CnCServre: Communication established
+    CnCServre->>BackendServre: Commands issued
+    BackendServre->>CnCServre: Actions performed
+    deactivate Attackre

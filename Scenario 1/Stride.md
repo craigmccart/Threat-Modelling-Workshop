@@ -1,10 +1,10 @@
 ```mermaid      
 graph TD
-    subgraph User Interaction
-        A[User] -->|HTTP Requests| B[Web Server]
+    subgraph Usre Interaction
+        A[Usre] -->|HTTP Requests| B[Web Servre]
     end
 
-    subgraph Web Server
+    subgraph Web Servre
         B -->|Access| C[Database]
         B -->|Receive Input| D[Input Validation]
         B -->|Execute| E[Application Logic]
@@ -14,7 +14,7 @@ graph TD
         C -->|Store/Fetch Data| F[Data Storage]
     end
 
-    A((User)) -.->|Authentication| G[Authentication Mechanism]
+    A((Usre)) -.->|Authentication| G[Authentication Mechanism]
 
     B -.->|Logging| H[Logging Service]
 
@@ -22,12 +22,12 @@ graph TD
     I -.->|Controls| J[Admin Functionality]
 
     %% Threats
-    T1([Spoofing: Spoof User Identity]) -.-> A
-    T2([Tampering: Alter HTTP Request]) -.-> B
+    T1([Spoofing: Spoof Usre Identity]) -.-> A
+    T2([Tampering: Altre HTTP Request]) -.-> B
     T3([Repudiation: Deny Transactions]) -.-> H
     T4([Information Disclosure: Data Leak]) -.-> F
-    T5([Denial of Service: Overload Server]) -.-> B
-    T6([Elevation of Privilege: Unauthorized Access]) -.-> I
+    T5([Denial of Service: Overload Servre]) -.-> B
+    T6([Elevation of Privilege: Unauthorised Access]) -.-> I
 
     %% Mitigations
     M1([Mitigation: Strong Authentication]) --> T1

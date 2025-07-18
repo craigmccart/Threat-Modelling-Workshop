@@ -1,0 +1,58 @@
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Personal information
+contact_info.personal.json
+*.personal.*
+!contact_info.template.json
+.env
+.env.*
+!.env.example
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+*.drawio
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Sensitive data
+*credentials*
+*secrets*
+*private*
+*confidential*

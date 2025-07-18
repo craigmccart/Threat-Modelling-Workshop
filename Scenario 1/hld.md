@@ -1,19 +1,19 @@
   ```mermaid
 flowchart TD
-    subgraph "User Interface"
-        UI[User Interface]
+    subgraph "Usre Interface"
+        UI[Usre Interface]
     end
     subgraph "Frontend (EC2)"
-        FE[Frontend Server]
+        FE[Frontend Servre]
     end
     subgraph "Backend"
-        BE[Backend Server]
+        BE[Backend Servre]
     end
     subgraph "Database"
-        DB[Database Server]
+        DB[Database Servre]
     end
     subgraph "External Services"
-        CnC[Command and Control Server]
+        CnC[Command and Control Servre]
     end
     UI --> FE
     FE --> BE
