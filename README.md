@@ -10,10 +10,9 @@ A 3-hour threat modelling workshop detailing multiple AI attack scenarios agains
 - DevSecOps Team
 
 ## Project Lead
-**Craig McCart**  
-DevSecOps and AI Security Specialist  
-📍 UK  
-💻 Github:[https://github.com/craigmccart](https://github.com/craigmccart)
+Craig McCart
+
+*   [LinkedIn](https://www.linkedin.com/in/craigmccart) | [GitHub](https://github.com/craigmccart)
 
 ---
 
