@@ -89,3 +89,15 @@ mindmap
       Attack 2
       Attack 3
       Attack 4
+```
+
+---
+
+## Personalisation & Unique Contributions
+
+- **Personal Reflection**: See [Personal_Reflection.md](./Personal_Reflection.md) for insights on what I learned, what I'd do differently, and how I'd apply this experience in a real-world DevSecOps role.
+- **DevSecOps Best Practices**: See [DevSecOps_Best_Practices.md](./DevSecOps_Best_Practices.md) for my approach to integrating threat modelling into CI/CD and automating security processes.
+- **Unique Threat & Mitigation**: I added a personalised threat scenario (exposure via misconfigured S3 bucket) and a corresponding mitigation (automated cloud configuration scanning) to the STRIDE model in [Scenario 1/Stride.md](./Scenario%201/Stride.md).
+- **Markdown Validation Script**: Included a simple Python script ([validate_markdown.py](./validate_markdown.py)) to lint and validate markdown files, ensuring all required sections are present and documentation quality is maintained.
+
+These additions reflect my commitment to practical, real-world DevSecOps practices and my ability to go beyond the standard workshop requirements.

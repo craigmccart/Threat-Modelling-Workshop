@@ -29,6 +29,9 @@ graph TD
     T5([Denial of Service: Overload Servre]) -.-> B
     T6([Elevation of Privilege: Unauthorised Access]) -.-> I
 
+    %% Personalised Threat
+    T7([Information Disclosure: Exposure via Misconfigured S3 Bucket]) -.-> F
+
     %% Mitigations
     M1([Mitigation: Strong Authentication]) --> T1
     M2([Mitigation: HTTPS]) --> T2
@@ -36,3 +39,4 @@ graph TD
     M4([Mitigation: Data Encryption]) --> T4
     M5([Mitigation: Rate Limiting]) --> T5
     M6([Mitigation: Access Controls]) --> T6      
+    M7([Mitigation: Automated Cloud Configuration Scanning]) --> T7      
